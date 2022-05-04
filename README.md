@@ -14,6 +14,11 @@ We'd like you to create a small weather dashboard where the user can:
  - Run `ng serve` for the dev server
  - Navigate to `http://localhost:4200/`
 
+# Development
+
+ - The `src/app/data/cities.ts` contains a list of hardcoded city data (the model is in  `src/app/models/city.ts`) 
+ - In the `src/app/models/api` there are some interfaces that model the API responses
+
 ## Weather API info
 
  - Docs: `https://openweathermap.org/current`
