@@ -15,8 +15,8 @@ export const cities = [
   },
   {
     "name": "Athens",
-    "lat": 37.9839412,
-    "lon": 23.7283052,
+    "lat": 37.9795,
+    "lon": 23.7162,
     "country": "GR",
     "state": "Attica"
   },
@@ -36,8 +36,8 @@ export const cities = [
   },
   {
     "name": "Berlin",
-    "lat": 52.5170365,
-    "lon": 13.3888599,
+    "lat": 52.5244,
+    "lon": 13.4105,
     "country": "DE",
     "state": "Berlin"
   },
@@ -57,15 +57,15 @@ export const cities = [
   },
   {
     "name": "Paris",
-    "lat": 48.8588897,
-    "lon": 2.3200410217200766,
+    "lat": 48.8534,
+    "lon": 2.3488,
     "country": "FR",
     "state": "Ile-de-France"
   },
   {
     "name": "Dublin",
-    "lat": 53.3497645,
-    "lon": -6.2602732,
+    "lat": 37.7021,
+    "lon": -121.9358,
     "country": "IE"
   },
   {
@@ -82,27 +82,27 @@ export const cities = [
   },
   {
     "name": "Reykjavik",
-    "lat": 64.145981,
-    "lon": -21.9422367,
+    "lat": 64.1355,
+    "lon": -21.8954,
     "country": "IS"
   },
   {
     "name": "Madrid",
-    "lat": 40.4167047,
-    "lon": -3.7035825,
+    "lat": 40.4165,
+    "lon": -3.7026,
     "country": "ES",
     "state": "Community of Madrid"
   },
   {
     "name": "Lisbon",
-    "lat": 38.7077507,
-    "lon": -9.1365919,
+    "lat": 38.7167,
+    "lon": -9.1333,
     "country": "PT"
   },
   {
     "name": "City of Brussels",
-    "lat": 50.8465573,
-    "lon": 4.351697,
+    "lat": 50.8504,
+    "lon": 4.3488,
     "country": "BE"
   }
 ]
