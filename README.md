@@ -42,6 +42,8 @@ We'd like you to create a small weather dashboard where the user can:
 - One parent component (list), one child component (search). Search component emits the selected city to parent and parent updates the list. 
 - Material modules in a grouped module
 - City preferences stored to local storage. If we need this to be persistent across browsers and/or not only on a particular machine, then this information should come from the db
+- Used cities `src/app/models/city.ts` as the list of the cities available to users
+
 
 
 # Improvements
