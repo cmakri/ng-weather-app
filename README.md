@@ -12,6 +12,7 @@ We'd like you to create a small weather dashboard where the user can:
  - Clone or download the project
  - Run `npm install`
  - Run `ng serve` for the dev server
+ - Add API key to environment file
  - Navigate to `http://localhost:4200/`
 
 # Development
@@ -25,3 +26,28 @@ We'd like you to create a small weather dashboard where the user can:
  - Icons: `https://openweathermap.org/weather-conditions`
 
 ### Have fun :)
+
+
+# Features
+- A list of all cities
+- Add a city to list 
+- Remove a city from list
+- Add a favourite
+- To check favourites added, refresh. If no favourites, then all cities are included in the list. 
+
+
+# Notes
+
+- API key added with an interceptor
+- One parent component (list), one child component (search). Search component emits the selected city to parent and parent updates the list. 
+- Material modules in a grouped module
+- City preferences stored to local storage. If we need this to be persistent across browsers and/or not only on a particular machine, then this information should come from the db
+
+
+# Improvements
+- Handle multiple API calls (one for each city) better as screen jumps (results are returned one after the other). Rxjs combining operator??
+- Sync list of cities (available for selection) with list. - remove what is already in the list meaning if all cities are shown then search list should be empty
+- More testing on adding cities that are already in the list. 
+- App has not been tested for all cases. Bugs are there surely. 
+
+
